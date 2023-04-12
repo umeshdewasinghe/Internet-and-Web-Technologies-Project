@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>registration page</title>
+    <link rel="stylesheet" href="../css/registration.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <script src = "../js/login.js"></script>
+    
+</head>
+<body>
+    <div class="box">
+        <h2>Registration</h2>
+        <div class="registration">
+            <form method="POST" action = "../php/registration.php"> 
+                Enter first name:<br><input id = "first_name" type ="text" name ="first_name" placeholder="Enter first name" required><br>
+                Enter last name:<br><input id = "last_name name" type ="text" name ="last_name" placeholder="Enter last name"required><br>
+                Enter address:<br><input id = "address" type ="text" name ="address" placeholder="Enter address"required><br>
+                Select type: <select name = "type" required>
+                                 <option value = "Customer">Customer</option>
+                                 <option value = "Delivery_person">Delivey person</option>
+                            </select><br>
+                Select Gender: <select name = "gender" required>
+                                <option value = "male">male</option>
+                                <option value = "female">female</option>
+                           </select><br>
+                <p id = "add_licence">
+
+                </p>
+                Enter Email: <br><input id = "email" type ="email" name ="email" placeholder="Enter email" required><br>
+                Enter password: <br><input id = "password" type ="password" name ="password" placeholder="Enter password" required><br>
+                <div id = "registration_btn">
+                    <input id = "submit" type="submit" value = "Submit">
+                </div>
+            </form>
+        </div>
+        
+    </div>
+    <script src = "../js/registration.js"></script>
+</body>
+</html>

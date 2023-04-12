@@ -1,0 +1,95 @@
+*{
+    font-family:'calibri';
+}
+
+
+body{
+
+    background-color: white;
+}
+
+.box{
+    height: 400px;
+    width: 280px;
+    margin: auto;
+    margin-top: 100px;
+    padding-top: 40px;
+    border-radius: 17px;
+    background-color: #e6edf3;
+    border : 10px solid #3d566b;
+}
+
+.box h1{
+
+    text-align: center;  
+    font-weight:bold;
+    color: #0650A7;
+    margin-bottom: 90px;
+
+}
+
+.login{
+    padding-left: 50px;
+}
+
+.login input{
+    text-align: left;
+
+}
+
+.login img{
+    position: relative;
+    height: 25px;
+    top: 6px;
+}
+
+.box button{
+    
+    width: 120px;
+    height: 30px;
+    border-radius: 17px;
+    background-color: #4EAFF3;
+    color: white;
+    margin-top: 20px;
+}
+#login_btn_box{
+
+    text-align: center;
+}
+#login_btn {
+    text-align: center;
+    width: 120px;
+    height: 30px;
+    border-radius: 17px;
+    background-color: #4EAFF3;
+    color: rgb(248, 248, 248);
+    margin-top: 5px;
+
+}
+
+#con_guest{
+    text-align: center;
+    margin-top: 5px;
+}
+
+#create_new{
+
+    margin-top: 90px;
+    margin-left: 10px;
+}
+
+#create_new img{
+    position: relative;
+    height: 25px;
+    top: 6px;
+
+}
+
+temp{
+
+    color: #0650A7;
+    color: #2387D5;
+    color: #4EAFF3;
+    color: #A7A5A6;
+    color: #928E8D;
+}

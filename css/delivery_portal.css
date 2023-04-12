@@ -1,0 +1,249 @@
+
+#header {
+  height: 130px;
+}
+
+#c1 {
+  float: left;
+
+}
+
+#c2 {
+  float: right;
+
+}
+
+#c3 {
+  float: left;
+
+}
+
+#c4 {
+  float: right;
+  margin-top: 30px;
+  margin-right: 30px;
+
+}
+
+#navbar hr {
+  padding-top: 100px;
+}
+
+
+#logo {
+  width: 450px;
+  height: 140px;
+  margin-left: 10px;
+}
+
+#profile_pic {
+  width: 80px;
+  border-radius: 50%;
+  border: 2px solid black;
+  margin-top: 30px;
+
+  margin-right: 20px;
+}
+
+#profile_details {
+
+  padding-top: 30px;
+  margin-left: px;
+}
+
+#body2 {
+  background-image: url('../images/deliver_portal/image1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 250px;
+}
+
+#navbar {
+
+  text-align: right;
+}
+
+.line {
+
+  border: 1px solid black;
+
+}
+
+
+
+#ul_list_1 {
+  list-style-type: none;
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #0650A7;
+  border-radius: 5px;
+}
+
+#ul_list_1 li {
+
+  display: inline;
+
+}
+
+#ul_list_1 li a {
+  margin: 30px;
+  border-radius: 10px;
+  width: 200px;
+  color: white;
+  background-color: #2387D5;
+}
+
+#ul_list_1 li a:hover {
+
+  color: rgb(58, 38, 236);
+}
+
+.table {
+
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 45px;
+  border-radius: 10px;
+}
+
+#footer a {
+  margin-right: 5px;
+  display: flex;
+  float: right;
+
+}
+
+#footer img {
+  width: 140px;
+  margin-right: 1000px;
+  display: flex;
+  float: left;
+}
+
+#body1{
+  background-image: linear-gradient(to right , #4EAFF3 , white );
+  padding: 10px 10px 80px 30px;
+  border: 1px solid #064371;
+  border-radius: 17px ;
+  height: 300px;
+  width: 1000px;
+  margin: auto;
+}
+
+#body1 h1{
+  color: #0650A7;
+  font-size: 70px;
+  margin-left: 10px;
+  text-shadow: 1px 1px #064371 ;
+}
+
+#body1 button{
+  font-size: 30px;
+  border-radius: 17px;
+  border: 5px solid #064371 ;
+  text-align: center;
+  width: 150px;
+  height: 55px;
+  margin-left: 10px;
+  
+}
+
+  
+#d1{
+  float: left;
+  padding-bottom: 100px;
+}
+  
+#d2{
+  float: left;
+  
+}
+
+#dLogo{
+  width:150px;
+  height: 130px;
+  margin-left: 40px;
+}
+#d3{
+  float: right;
+  margin-top: 10px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.table, th, td{
+  border : 1px solid;
+}
+.table th{
+  padding:15px 105px 5px 105px;
+  text-decoration:none;
+  font-size:17px;
+  font-style:none;
+  text-align:left;
+  background-color:aliceblue
+}
+.table td{
+
+  background-color:rgb(124, 199, 234)
+}
+
+
+
+.button2 {
+  border: none;
+  color: #4EAFF3;
+  padding: 10px ;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 0px 0px 0px 0px;
+  cursor: pointer;
+  border-radius: 15px;
+  
+}
+
+.center{
+  text-align: center;
+
+}
+
+.yes {
+  background-color: #86c5f2; 
+  color: black; 
+  border: 2px solid black;
+}
+
+.yes:hover {
+  background-color:#4EAFF3;
+  color:white;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.yes:focus{
+  background-color:rgb(4, 162, 75);
+  color:white;
+}
+.yes:active{
+  background-color:black;
+  color:white;
+}
+.no {
+  background-color: #86c5f2; 
+  color: black; 
+  border: 2px solid black;
+}
+
+.no:hover {
+  background-color: #4EAFF3;
+  color: white;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.no:focus{
+  background-color:red;
+  color:white;
+}
+
+#done{
+  width: 20px;
+  height: 20px;
+}

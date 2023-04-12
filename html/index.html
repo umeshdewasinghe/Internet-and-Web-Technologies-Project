@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>login page</title>
+    <link rel="stylesheet" href="../css/index.css">
+
+    <script src = "../js/login.js"></script>
+</head>
+<body>
+    <div class="box">
+        <h1>Login</h1>
+        <form method="post" action = "../php/login.php">
+            <div class="login">
+                <img src = "../images/icons/login.png">
+                <input id = "username" type ="text" name ="email" placeholder="Enter email" required>
+                <br>
+                <img src = "../images/icons/login_pass.png">
+                <input id = "password" type ="password" name ="password" placeholder="Enter password" required>
+            </div>
+            <div id = "login_btn_box">
+                <input id="login_btn" type = "submit" value = "login" name = "login" >
+            </div>
+        </form>
+        <div id ="con_guest">
+            <a href ="../php/guest.php">continue as guest</a>
+        </div>
+        <div id ="create_new">
+            <img src = "../images/icons/create_new.png">
+            <a href="./registration.html">create new account</a>
+        </div>
+        
+    </div>
+       
+
+</body>
+</html>

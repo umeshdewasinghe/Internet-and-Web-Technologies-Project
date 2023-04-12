@@ -1,0 +1,74 @@
+*{
+    font-family:'calibri';
+}
+
+body{
+
+    background-color: white;
+}
+
+.box{
+    height: 450px;
+    width: 280px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 17px;
+    background-color: #e6edf3;
+    border : 10px solid #3d566b;
+}
+
+.box h2{
+
+    text-align: center;  
+    font-weight:bold;
+    color: #0650A7;
+    margin-bottom: 20px;
+
+}
+
+.registration{
+    padding-left: 20px;
+}
+
+.registration input{
+
+    width: 235px;
+    margin-bottom: 7px;
+}
+.registration select{
+
+    margin-top: 3px;
+}
+
+.registration img{
+    position: relative;
+    height: 25px;
+    top: 6px;
+}
+
+#submit{
+    text-align: center;
+    width: 120px;
+    height: 30px;
+    border-radius: 17px;
+    background-color: #4EAFF3;
+    color: white;
+    margin-top: 5px;
+    margin-right: 15px;
+}
+
+#registration_btn{
+    text-align: center;
+}
+
+
+
+
+temp{
+
+    color: #0650A7;
+    color: #2387D5;
+    color: #4EAFF3;
+    color: #A7A5A6;
+    color: #928E8D;
+}
